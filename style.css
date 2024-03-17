@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+}
+
+header{
+    background-color: rgb(185, 188, 190);
+    padding-bottom: 3px;
+}
+
+
+#yellowLine{
+    width: 1902px;
+    height: auto;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+#abinhaHeader{
+    display: flex;
+    margin-right: 15px;
+    gap: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    padding-top: 3px;
+}
+
+#save{
+    width: 15px;
+    height: auto;
+    margin-right: 5px;
+}
+
+#saveButton {
+    margin-right: 5px;
+}
