@@ -118,23 +118,22 @@
         </nav>
     </aside>
     
-    <section>
-        <div>
-            <h2>Overview Page Schema</h2>
-        </div>
-        <div>
-            <h3>Toolbar Schema</h3>
-        </div>
-        <div>
-            <h3>Wire Schema</h3>
-        </div>
-        <hr>
-        <div>
-            <h3>Page Master Area</h3>
-            <h3>Section</h3>
-            <h3>UIBB</h3>
-            <h3>Up</h3>
-            <h3>Down</h3>
+    <section id="overview">
+        <div id="overviewHead">
+            <div id="overTopHead">
+                <h2 id="overH2">Overview Page Schema</h2>            
+                <h3>Toolbar Schema</h3>            
+                <h3>Wire Schema</h3>
+            </div>
+            <div id="overBotHead">
+                <button id="pageM">Page Master Area</button>
+                <button>Section</button>
+                <button>UIBB</button>
+                <button>Up</button>
+                <button>Down</button>
+                <button id="configureButton">Configure UIBB</button>
+                <button></button>
+            </div>
         </div>
 
         <div>
@@ -187,7 +186,7 @@
         <hr id="blueLine">
         <div id="Bottom">
 
-            <div id="left"></div>
+            <div id="left">
                 <div class="inputs">
                     <h3>Window Name:</h3>
                     <input type="FORM_WINDOW" placeholder="FORM_WINDOW">
@@ -206,7 +205,7 @@
 
                 
                 <div class="inputs">
-                    <h3>Column</h3>
+                    <h3>Column:</h3>
                     <input type="Column">
                 </div>
 
@@ -267,7 +266,12 @@
 
                 <div class="inputs">
                     <h3>Default Edit Page:</h3>
-                    <input type="Explanation Text">
+                    <input type="Default Edit Page">
+                </div>
+
+                <div class="inputs">
+                    <h3>Default Details Page:</h3>
+                    <input type="Default Details Page">
                 </div>
             </div>
 
