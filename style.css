@@ -9,7 +9,7 @@ header{
 
 
 #yellowLine{
-    width: 1902px;
+    width: 100%;
     height: auto;
 }
 
@@ -37,3 +37,21 @@ h1{
 #saveButton {
     margin-right: 5px;
 }
+
+
+
+
+
+#Head {
+    display: flex;
+    border-bottom: solid 2px rgb(73, 137, 196);
+    padding-bottom: 15px;
+}
+
+#att {
+    margin-right: 1050px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
