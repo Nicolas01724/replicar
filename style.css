@@ -1,8 +1,10 @@
-*{
-    margin:0px;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* Adiciona o box-sizing border-box para evitar problemas de layout */
 }
 
-header{
+header {
     background-color: rgb(185, 188, 190);
     padding-bottom: 3px;
 }
@@ -13,13 +15,13 @@ header{
     height: auto;
 }
 
-h1{
+h1 {
     font-size: 28px;
     font-weight: bold;
     margin-left: 25px;
 }
 
-#abinhaHeader{
+#abinhaHeader {
     display: flex;
     margin-right: 15px;
     gap: 10px;
@@ -28,7 +30,7 @@ h1{
     padding-top: 3px;
 }
 
-#save{
+#save {
     width: 15px;
     height: auto;
     margin-right: 5px;
@@ -55,3 +57,94 @@ h1{
     margin-left: 25px;
 }
 
+.box-nav-header {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(43, 43, 248);
+}
+
+.box-nav-header > p {
+    margin-left: 40px;
+    margin-top: 4px;
+}
+
+.box-nav-header > .subtitulo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.box-nav-header > h3 {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.container-nav {
+    border: solid 4px #acacac;
+    height: 100vh;
+    width: 35%; 
+    float: left; 
+    overflow-y: auto; 
+}
+
+.nav-menu {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    background-color: #c5c4c4;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #c7c7c7;
+    padding: 7px;
+    border: 1px solid #000; 
+}
+
+td {
+    padding: 7px;
+    border: 1px solid #000; 
+}
+
+th:first-child,
+td:first-child {
+    width: 10%; 
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 30%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 15%; 
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 60%;
+}
+
+.m-btn {
+    margin-left: 8px;
+}
+
+.btn {
+    border-radius: none;
+    padding-right: 7px;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+.nada{
+    background-color: #c7c7c7;
+}
+
+/* section {
+    margin-left: 35%;
+} */
