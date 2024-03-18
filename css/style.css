@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box; /* Adiciona o box-sizing border-box para evitar problemas de layout */
+    box-sizing: border-box;
 }
 
 header {
@@ -39,9 +39,6 @@ h1 {
 #saveButton {
     margin-right: 5px;
 }
-
-
-
 
 
 #Head {
@@ -145,10 +142,6 @@ td:nth-child(4) {
     background-color: #c7c7c7;
 }
 
-/* section {
-    margin-left: 35%;
-} */
-
 #Bottom {
     display: flex;
     align-items: center;
@@ -178,14 +171,20 @@ td:nth-child(4) {
 
 #overviewHead {
     margin-top: 50px;
-    margin-left: 75px;
+    /* margin-left: 75px; */
+}
+
+.display-main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
 
 #overTopHead {
     display: flex;
     gap: 30px;
-    margin-left: 75px;
+    /* margin-left: 75px; */
     border-bottom: solid 3px rgb(111, 169, 223);
     padding-bottom: 15px;
     padding-left: 75px;
@@ -219,4 +218,12 @@ td:nth-child(4) {
 
 #configureButton {
     margin-left: 775px;
+}
+
+#attributesBot {
+    margin-top: 75px;
+}
+
+.keijo {
+    color: orange;
 }
