@@ -18,14 +18,17 @@
 
         <div id="abinhaHeader">
             <button id="saveButton"><img src="./img/images.png" alt="save" id="save">Save</button> 
-            <button>Cancel</button> 
-            <button>Edit</button> 
-            <button>Save Draft</button> 
+            <button><i class="bi bi-x cancel"></i>Cancel</button> 
+            <button><i class="bi bi-pencil-fill pencil"></i>Edit</button> 
+            <button><i class="bi bi-floppy2 save1"></i>Save Draft</button> 
             <button>Load Draft</button> 
-            <button>Undo</button>
-            <button>Redo</button>
+            <button><i class="bi bi-arrow-clockwise"></i></button>
+            <button><i class="bi bi-arrow-return-left"></i>Undo</button>
+            <button><i class="bi bi-arrow-return-right"></i>Redo</button>
             <button>Check</button>
-            <button><i class="bi bi-grid-1x2-fill keijo"></i></button>
+            <button><i class="bi bi-grid-1x2-fill keijo" id="up"></i></button>
+            <button><i class="bi bi-grid-1x2-fill keijo" id="left"></i></button>
+            <button><i class="bi bi-grid-1x2-fill keijo" id="down"></i></button>
             <button>Additional Functions</button>
         </div>
     </header>
@@ -36,12 +39,12 @@
                 <h2 class="subtitulo">Navigation</h2> <h3>Repositories</h3> <p>Pasta</p>
             </div>
             <div class="nav-menu">
-                <button class="btn">EMOJI New</button>
-                <button class="btn">Lixo</button> 
-                <button class="btn">Papel</button>
+                <button class="btn"><i class="bi bi-file-earmark-plus"></i>New</button>
+                <button class="btn"><i class="bi bi-trash-fill trash"></i></button> 
+                <button class="btn"><i class="bi bi-file-earmark"></i></button>
                 <button class="btn">Up</button>
                 <button class="btn">Down</button>
-                <button class="btn m-btn">Pessoa</button>
+                <button class="btn m-btn"><i class="bi bi-person-badge"></i></button>
             </div>
             <table>
                 <thead>
@@ -134,7 +137,7 @@
                         <button>Up</button>
                         <button>Down</button>
                         <button id="configureButton">Configure UIBB</button>
-                        <button></button>
+                        <button><i class="bi bi-person-badge"></i></button>
                     </div>
                 </div>
             </div>
